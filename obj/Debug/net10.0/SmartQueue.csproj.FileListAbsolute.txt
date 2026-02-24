@@ -1,0 +1,14 @@
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\bin\Debug\net10.0\SmartQueue.exe
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\bin\Debug\net10.0\SmartQueue.deps.json
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\bin\Debug\net10.0\SmartQueue.runtimeconfig.json
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\bin\Debug\net10.0\SmartQueue.dll
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\bin\Debug\net10.0\SmartQueue.pdb
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\obj\Debug\net10.0\SmartQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\obj\Debug\net10.0\SmartQueue.AssemblyInfoInputs.cache
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\obj\Debug\net10.0\SmartQueue.AssemblyInfo.cs
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\obj\Debug\net10.0\SmartQueue.csproj.CoreCompileInputs.cache
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\obj\Debug\net10.0\SmartQueue.dll
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\obj\Debug\net10.0\refint\SmartQueue.dll
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\obj\Debug\net10.0\SmartQueue.pdb
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\obj\Debug\net10.0\SmartQueue.genruntimeconfig.cache
+C:\Users\Hp\OneDrive\Escritorio\SmartQueue\obj\Debug\net10.0\ref\SmartQueue.dll
