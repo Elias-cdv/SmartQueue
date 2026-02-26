@@ -22,14 +22,18 @@ public class SmartQueue
                 continue;
             }
 
+            string ClientName = string.Empty;
+            string ClientMotive = string.Empty;
+            Client dequeuedClient = null;
+
             switch(option)
             {
                 case 1:
                     Console.WriteLine("Enter the name of the client: ");
-                    string ClientName = Console.ReadLine() ?? string.Empty;
+                    ClientName = Console.ReadLine() ?? string.Empty;
 
                     Console.WriteLine("Enter the motive of the client: ");
-                    string ClientMotive = Console.ReadLine() ?? string.Empty;
+                    ClientMotive = Console.ReadLine() ?? string.Empty;
 
                     Client newClient = new Client(nextId, ClientName, ClientMotive);
 
@@ -39,10 +43,32 @@ public class SmartQueue
 
                     break;
                 case 2:
-                    Console.WriteLine("Coming soon...");
+
+                    if (queue.Count == 0)
+                    {
+                        Console.WriteLine("The queue is empty.");
+                    }
+                    else
+                    {
+
+                    Client attended = queue.Dequeue();
+                    Console.WriteLine($"Attending → #{attended.Id} | {attended.Name} | {attended.Motive}");
+                    Console.WriteLine("Client successfully attended. ✓");
+                    
+                    }
+                                        
                     break;
                 case 3:
-                    Console.WriteLine("Coming soon...");
+
+                    if(queue.Count == 0)
+                    {
+                        Console.WriteLine("The queue is empty");
+                        break;
+                    }   
+                    foreach(Client c in queue)
+                    {
+                        Console.WriteLine($"#{c.Id} | {c.Name} | {c.Motive}");
+                    }
                     break;
                 case 0:
                     Console.WriteLine("Goodbye!");
