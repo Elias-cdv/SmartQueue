@@ -4,6 +4,8 @@ public class SmartQueue
 {
     public static void Main()
     {
+        Queue <Client> queue = new Queue<Client>();
+        int nextId = 1;
         while (true)
         {
             Console.WriteLine("=== SmartQueue Manager ===");
@@ -23,7 +25,18 @@ public class SmartQueue
             switch(option)
             {
                 case 1:
-                    Console.WriteLine("Coming soon...");
+                    Console.WriteLine("Enter the name of the client: ");
+                    string ClientName = Console.ReadLine() ?? string.Empty;
+
+                    Console.WriteLine("Enter the motive of the client: ");
+                    string ClientMotive = Console.ReadLine() ?? string.Empty;
+
+                    Client newClient = new Client(nextId, ClientName, ClientMotive);
+
+                    queue.Enqueue(newClient);
+                    nextId++;
+                    Console.WriteLine($"Client #{nextId - 1} added to the queue.");
+
                     break;
                 case 2:
                     Console.WriteLine("Coming soon...");
