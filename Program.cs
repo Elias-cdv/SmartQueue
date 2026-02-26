@@ -13,12 +13,32 @@ public class SmartQueue
             Console.WriteLine("0. Exit");
             Console.WriteLine("Select an option: ");
             int option = 0;
-            int.TryParse(Console.ReadLine(), out option);
+            string input = Console.ReadLine();
+            if (!int.TryParse(input, out option))
+            {
+                Console.WriteLine("Invalid option, try again.");
+                continue;
+            }
 
-            if (option == 0) break;
+            switch(option)
+            {
+                case 1:
+                    Console.WriteLine("Coming soon...");
+                    break;
+                case 2:
+                    Console.WriteLine("Coming soon...");
+                    break;
+                case 3:
+                    Console.WriteLine("Coming soon...");
+                    break;
+                case 0:
+                    Console.WriteLine("Goodbye!");
+                    return;
+                default:
+                    Console.WriteLine("Invalid option, try again");
+                    break;
+            }
             
         }
-
-        
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartQueue")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+502cce3169eff7b5ae926dfda1219fbcc2a9990b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2053742e5059b5f0bd8db414fabdf70739e41e2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartQueue")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartQueue")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
